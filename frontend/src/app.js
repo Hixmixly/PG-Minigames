@@ -1,5 +1,5 @@
 import React from 'react';
-import Deck from './Deck';
+import Deck from '../src/components/deck';
 
 function App() {
     const deck = new Deck();

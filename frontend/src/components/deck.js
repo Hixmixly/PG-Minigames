@@ -5,7 +5,7 @@ const value = ['A', '2','3','4', '5',
                  '10', 'J','Q', 'K']
 
 export default class Deck {
-    constructor(cards = freshDeck) {
+    constructor(cards = newDeck) {
         this.cards = cards  
     }
 
@@ -13,6 +13,7 @@ export default class Deck {
         return this.cards.length
     }
     
+//generates deck randomly 
 shuffle() {
         for (let i = this.cards.length - 1; i > e; i --){
             const newIndex = Math.floor(Math.random() * (i + 1))
@@ -38,3 +39,4 @@ function newDeck( ){
     })
 }
 
+module.exports = Deck

@@ -1,4 +1,14 @@
 {
+  "name": "pg-minigames",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/index.js",
+    "build": "react-scripts build",
+    "frontend": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^22.1.0",
@@ -7,6 +17,9 @@
     "axios": "^1.7.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1",
     "typescript": "^5.5.4"
   }
 }
