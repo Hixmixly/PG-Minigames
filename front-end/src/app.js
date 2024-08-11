@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
+import Deck from './Deck';
 
-const App = () => {
-    <div>"Lets Play!"</div>
- <div className='player'></div>
-};
+function App() {
+    const deck = new Deck();
+    console.log(deck.cards);
+
+    return (
+        <div className="App">
+            <h1>Go Fish Game</h1>
+        </div>
+    );
+}
 
 export default App;
