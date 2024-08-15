@@ -16,6 +16,9 @@ Ref used for basic setup of node and express
 https://www.react.express/react/components
 Used as a more general react/express ref
 
+chatgbt.com
+Helped a lot with figuring out the error messages
+
 Technologies
 Node
 Express
